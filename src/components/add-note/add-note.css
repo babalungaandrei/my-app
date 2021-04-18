@@ -1,0 +1,14 @@
+.add-icon {
+    margin-right: 10px;
+}
+
+.add {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-action {
+    margin-left: 10px;
+}

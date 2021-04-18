@@ -1,0 +1,16 @@
+.button {
+    margin: 0 5px;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+
+.button-group {
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.note:hover .button-group {
+    opacity: 1;
+}

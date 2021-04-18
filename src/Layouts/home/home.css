@@ -1,0 +1,10 @@
+.home {
+    height: 100%;
+}
+
+.ant-list-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: 57px;
+}
