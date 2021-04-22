@@ -5,7 +5,7 @@ import {UploadOutlined} from "@ant-design/icons";
 export const Archive = (props) => {
   return (
     <div>
-      <Typography.Title>Archived notes</Typography.Title>
+      <Typography.Title>Arhiva</Typography.Title>
       <List
         bordered
         dataSource={props.data}

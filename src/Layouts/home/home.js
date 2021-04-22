@@ -7,7 +7,7 @@ import {Fragment } from 'react';
 
 export const Home = (props) => (
     <div className="home">
-      <Typography.Title>My Notes</Typography.Title>
+      <Typography.Title>Note</Typography.Title>
       <List
         bordered
         dataSource={props.data}

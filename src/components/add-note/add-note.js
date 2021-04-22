@@ -23,13 +23,13 @@ export const AddNote = (props) => {
   const staticView = () => (
     <div className="add" onClick={() => setAdding(true)}>
       <PlusOutlined className="add-icon"/>
-      <Typography.Text>Add Item</Typography.Text>
+      <Typography.Text>Adaugare</Typography.Text>
     </div>
   );
   
   const editView = () => (
     <div className="add">
-      <Input placeholder="I want to..." value={name} onChange={ev => setName(ev.target.value)}/>
+      <Input placeholder="Notam..." value={name} onChange={ev => setName(ev.target.value)}/>
       <Button
         className="add-action"
         shape="circle"

@@ -67,8 +67,8 @@ const App = () => {
     <Layout className="layout">
       <Header className="header">
         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={[path]}>
-          <Menu.Item key="/"><Link to="/">My Notes</Link></Menu.Item>
-          <Menu.Item key="/archive"><Link to="/archive">Archive</Link></Menu.Item>
+          <Menu.Item key="/"><Link to="/">Note</Link></Menu.Item>
+          <Menu.Item key="/archive"><Link to="/archive">Arhiva</Link></Menu.Item>
         </Menu>
       </Header>
       <Content className="content">
@@ -93,7 +93,7 @@ const App = () => {
           </Switch>
         </div>
       </Content>
-      <Footer style={{textAlign: 'center'}}>Morei Victor © 2021, Web Project, TUM</Footer>
+      <Footer style={{textAlign: 'center'}}>Babalunga Andrei © 2021, UTM</Footer>
     </Layout>
   )
 }

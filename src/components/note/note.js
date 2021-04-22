@@ -30,7 +30,7 @@ export const Note = (props) => {
   const editingView = () => (
     <List.Item className="note">
       <Input
-        placeholder="I want to..."
+        placeholder="Notam..."
         onChange={ev => setName(ev.target.value)}
         value={name}
       />
